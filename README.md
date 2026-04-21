@@ -1,5 +1,7 @@
 Command line interface (CLI) that demonstrates the zero-knowledge architecture used by password managers such as DashLane.
 
+Run with any program that can run Java source code e.g. VSCode.
+
 For failure case: 
 - Select "1: Insecure" on boot. This version does not use zero-knowledge architecture. 
 - Log in and add accounts. Websites will be sent to a vault in plaintext, while their corresponding passwords will first be encrypted in a packet using rudimentary cipher block chaining (CBC). 
