@@ -33,6 +33,7 @@ public class ITIS_3200_Team_5 {
                         packet + 
                         "\n--------------------"
                     );
+                    deviceKey = packet.decrypt()[0];
                     System.out.println("Device key set.");
                     break;
                 default:
