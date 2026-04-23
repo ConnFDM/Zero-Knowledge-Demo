@@ -29,7 +29,7 @@ public class ITIS_3200_Team_5 {
                     System.out.println("Secure version in use.");
                     packet = accounts.makeDeviceKey();
                     System.out.println("--------------------\n" +
-                        "Receiving packet...\n" +
+                        "Receiving package...\n" +
                         packet + 
                         "\n--------------------"
                     );
@@ -71,7 +71,7 @@ public class ITIS_3200_Team_5 {
                                 if (secure) pwBytes = Encryptor.encrypt(pwBytes, deviceKey);
                                 packet = Encryptor.encryptToPacket(pwBytes);
                                 System.out.println("--------------------\n" +
-                                    "Sending packet...\n" +
+                                    "Sending package...\n" +
                                     packet + 
                                     "\n--------------------"
                                 );
@@ -97,7 +97,7 @@ public class ITIS_3200_Team_5 {
                                 site = keyboard.nextLine();
                                 packet = accounts.getPassword(site);
                                 System.out.println("--------------------\n" +
-                                    "Receiving packet...\n" +
+                                    "Receiving package...\n" +
                                     packet + 
                                     "\n--------------------"
                                     );
@@ -112,7 +112,7 @@ public class ITIS_3200_Team_5 {
                                 break;
                             case "4":
                                 System.out.println("--------------------\n" +
-                                    "Receiving " + accounts.size() + " packets...\n" +
+                                    "Receiving " + accounts.size() + " packages...\n" +
                                     "--------------------\n"
                                     );
                                 System.out.printf("#|%-10s|%-10s\n", 
